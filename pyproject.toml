@@ -13,9 +13,11 @@ classifiers = [
     "License :: OSI Approved :: Apache Software License",
 ]
 dependencies = [
-    "torch==2.0.1", "torchvision==0.15.2",
-    "transformers==4.36.2", "tokenizers==0.15.0", "sentencepiece==0.1.99", "shortuuid",
-    "accelerate==0.21.0", "peft==0.4.0", "bitsandbytes==0.41.0",
+    "tokenizer", "paddleocr>=2.0.1", "transformers==4.44.2"
+    "flash-attn", "diffusers==0.26.3" 
+    "deepspeed",""open_clip_torch", "ninja"  
+    "torch==2.4","sentencepiece==0.1.99", "shortuuid",
+    "peft==0.4.0", "bitsandbytes==0.41.0",
     "pydantic<2,>=1", "markdown2[all]", "numpy", "scikit-learn==1.2.2",
     "gradio==3.35.2", "gradio_client==0.2.9",
     "requests", "httpx==0.24.0", "uvicorn", "fastapi",
