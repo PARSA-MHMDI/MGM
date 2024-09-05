@@ -13,9 +13,9 @@ classifiers = [
     "License :: OSI Approved :: Apache Software License",
 ]
 dependencies = [
-    "tokenizer", "paddleocr>=2.0.1", "transformers==4.44.2"
-    "flash-attn", "diffusers==0.26.3" 
-    "deepspeed",""open_clip_torch", "ninja"  
+    "tokenizer", "paddleocr>=2.0.1", "transformers==4.44.2",
+    "flash-attn", "diffusers==0.26.3", 
+    "deepspeed", "open_clip_torch", "ninja",  
     "torch==2.4","sentencepiece==0.1.99", "shortuuid",
     "peft==0.4.0", "bitsandbytes==0.41.0",
     "pydantic<2,>=1", "markdown2[all]", "numpy", "scikit-learn==1.2.2",
