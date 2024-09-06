@@ -13,6 +13,9 @@ deepspeed mgm/train/train_mem.py \
     --vision_tower_aux model_zoo/OpenAI/openclip-convnext-large-d-320-laion2B-s29B-b131K-ft-soup \
     --mm_projector_type mlp2x_gelu \
     --tune_mm_mlp_adapter True \
+    --freeze_backbone "yes" \
+    --double_quant "yes" \
+    --bits 8 \
     --mm_vision_select_layer -2 \
     --mm_use_im_start_end False \
     --mm_use_im_patch_token False \
